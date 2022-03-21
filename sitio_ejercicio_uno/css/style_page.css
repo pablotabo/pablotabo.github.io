@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header, nav, main, footer {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+}
+header {
+    background-color: #38659E;
+    color: #D8EBFC;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav {
+    background-color: #39435E;
+}
+nav ul {
+    margin-left: 22%;
+}
+nav ul li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+nav ul li a {
+    padding: 10px;
+    width: 100px;
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #FFCD3E;
+}
+nav ul li a:visited {
+    color: #E6733C;
+}
+main {
+    background-color: #F1F1F1;
+    padding: 30px;
+    height: auto;
+}
+main section {
+    margin: 30px auto;
+    background-color: #258DCD;
+    padding: 30px;
+    width: 54%;
+}
+main section h2 {
+    color: #FFCD3E;
+}
+footer {
+    background-color: #96AFAF;
+    text-align: center;
+    color: #002C50;
+    font-weight: bold;
+}
+footer h6 {
+    font-weight: bold;
+}
+	table,th,td{
+    border: 3px #E11C1F;
+    border-collapse: separate;
+    width: 30%;
+		}
+		
+		#style_tabla_1,#style_tabla_1 th, #style_tabla_1 td{
+    		border: 3px solid #FBF370;
+   			border-collapse: collapse;
+   			background-color: #92BDBF;
+		}
+		th,td{
+			padding: 20px;
+			text-align: center;
+		}
+		#style_tabla_1,#style_tabla_1 th, #style_tabla_1 td{
+			border: 3px solid #356CCA;
+			border-collapse: collapse;
+			background-color: #3D9AB6;
+		}
+		#style_tabla_2,#style_tabla_2 th, #style_tabla_2 td{
+			border: 3px solid #DC3A94;
+			background-color:#FABCF8; 
+		}
+		#style_tabla_2tr:nth-child(even){
+			border:3px solid #F18AE2;
+		}
+		#syle_tabla_2 tr:nth-child(odd){
+			background-color: #8B8585;
+			color: #FFFFFF;
+			border:3px solid #E1F0F2;
+		}
+		#style_tabla_2 th{
+			background-color: aliceblue;
+			color: #D08788;
+		}
+		.encabezado{
+			font-size: 50px;
+		}
+		.encabezado_par{
+			color: #F1520E;
+		}
+		.encabezado_inpar{
+			color: cornflowerblue;
+		}
+		h2{
+			font-size: 60px;
+		}
+		
+		#style_tabla_1 tr:hover{
+			background-color: #17E461;
+		}
+#style_tabla_2 {
+}
+#style_tabla_0 {
+    width: 80%;
+}

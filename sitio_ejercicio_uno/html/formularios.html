@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_pagecuestionario.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1>
+</header>
+<nav>
+<ul>
+    <li><a href="formatostexto.html" target="_blank">Estilo de texto</a></li>
+    <li><a href="listas.html" target="_blank">Listas</a></li>
+    <li><a href="tablas.html" target="_blank">Tablas</a></li>
+    <li><a href="imagenes.html">Imagenes</a></li>
+    <li><a href="Menu_index.html" target="_blank">Index</a></li>
+    <li><a href="audio.html" target="_blank">Audio</a></li>
+    <li><a href="video.html" target="_blank">Video</a></li>
+    <li><a href="formularios.html" target="_blank">Formularios</a></li>
+    <li><a href="fuentes_animacion.html" target="_blank">Fuentes y animaciones</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario de registro</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sapiente eaque perferendis, velit est aliquam, inventore tempore minus magni. Dicta nemo dolorum, molestiae consequatur. Voluptatem animi similique necessitatibus cupiditate autem quos quo asperiores architecto sed ipsum aut earum voluptas, cumque, perferendis adipisci blanditiis amet iusto veniam eligendi ipsa temporibus modi!</p>
+	 <form action="respuesta.html" method="get">
+		 <label>Usuario</label>
+		 <input type="text" id="user" name="user">
+		 <label for password> contraseña</label>
+		 <input type="password" id="password" name="password">
+		 <input type="submit" value="Enviar">
+	 </form>
+  </section>
+  <section>
+    <h2>Pregunta con radio button</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sapiente eaque perferendis, velit est aliquam, inventore tempore minus magni. Dicta nemo dolorum, molestiae consequatur. Voluptatem animi similique necessitatibus cupiditate autem quos quo asperiores architecto sed ipsum aut earum voluptas, cumque, perferendis adipisci blanditiis amet iusto veniam eligendi ipsa temporibus modi!</p>
+    <form action="respuesta.html" id="form1" name="form1" method="get">
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="radio" name="Pais" value="Espana" id="Pais_0">
+            España</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Pais" value="Mexico" id="Pais_1">
+            Mexico</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Pais" value="Cuba" id="Pais_2">
+            Cuba</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Pais" value="panama" id="Pais_3">
+            Panama</label></td>
+        </tr>
+      </table>
+      <input type="submit" name="submit2" id="submit2" value="Enviar">
+      <br><br>
+      <label>¿Qué musica prefieres?</label>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Gusto musical" value="pop" id="Gustomusical_0">
+            Pop</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Gusto musical" value="rock" id="Gustomusical_1">
+            Rock</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Gusto musical" value="regeton" id="Gustomusical_2">
+            Regeton</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Gusto musical" value="clasica" id="Gustomusical_3">
+            Clasica</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Gusto musical" value="intrumental" id="Gustomusical_4">
+            Instrumental</label></td>
+        </tr>
+      </table>
+      
+      
+    </form>
+  </section>
+    
+  <section>
+    <h2>Lista despegable </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sapiente eaque perferendis, velit est aliquam, inventore tempore minus magni. Dicta nemo dolorum, molestiae consequatur. Voluptatem animi similique necessitatibus cupiditate autem quos quo asperiores architecto sed ipsum aut earum voluptas, cumque, perferendis adipisci blanditiis amet iusto veniam eligendi ipsa temporibus modi!</p>
+    <form action="respuesta.html" name="form2" method="get">
+      <label for="textfield">Nombre:</label>
+      <input name="textfield" type="text" id="textfield" autocomplete="on" size="25" maxlength="100">
+		<br><br>
+      <label for="select">País:</label>
+      <select name="select" autofocus="autofocus" id="select">
+        <option> México</option>
+        <option>España</option>
+        <option>Colombia</option>
+        <option>Argentina</option>
+        <option>Chile</option>
+      </select>
+		<br><br>
+      <input type="submit" name="submit" id="submit" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Casilla de verificacion&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sapiente eaque perferendis, velit est aliquam, inventore tempore minus magni. Dicta nemo dolorum, molestiae consequatur. Voluptatem animi similique necessitatibus cupiditate autem quos quo asperiores architecto sed ipsum aut earum voluptas, cumque, perferendis adipisci blanditiis amet iusto veniam eligendi ipsa temporibus modi!</p>
+    <form action="respuesta.html" name="form3" method="pots">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+		<br><br>
+      <label for="comentario">comentario :</label>
+      <textarea name="comentario" cols="50" rows="10" id="comentario"></textarea>
+		<br><br>
+      <input type="submit" name="submit3" id="submit3" value="Enviar">
+    </form>
+  </section>
+  <section>
+    <h2>Formulario multiple 10&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sapiente eaque perferendis, velit est aliquam, inventore tempore minus magni. Dicta nemo dolorum, molestiae consequatur. Voluptatem animi similique necessitatibus cupiditate autem quos quo asperiores architecto sed ipsum aut earum voluptas, cumque, perferendis adipisci blanditiis amet iusto veniam eligendi ipsa temporibus modi!</p>
+    <form action="respuesta.html" id="form4" name="form4" method="get">
+      <label for="textfield2">Nombre o apodo:</label>
+      <input type="text" name="textfield2" id="textfield2">
+		<br><br>
+      <label for="password2">contraseña:</label>
+      <input type="password" name="password2" id="password2">
+		<br><br>
+      <label for="email2">Email:</label>
+      <input type="email" name="email2" id="email2">
+		<br><br>
+      <label for="tel">Tel:</label>
+      <input type="tel" name="tel" id="tel">
+		<br><br>
+		<label for="datetime-local">Fecha y hora en que se esta contestando:</label>
+        <input type="datetime-local" name="datetime-local" id="datetime-local">
+        <br>
+        <br>
+        <label for="number">Cuantas clases tomas:</label>
+      <input type="number" name="number" id="number" min="1" max="9">
+	  <label for="quantity">numero de clases</label>
+		<br>
+		<br>
+		<label for="quantity">¿Qué semestres fueron tus preferidos?&nbsp;</label>
+		<table width="200">
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Semestre actual" value="Primero" id="Semestreactual_0">
+		      Primero</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Semestre actual" value="Segundo" id="Semestreactual_1">
+		      Segundo</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Semestre actual" value="Tercero" id="Semestreactual_2">
+		      Tercero</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Semestre actual" value="Cuarto" id="Semestreactual_3">
+		      Cuarto</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Semestre actual" value="Quinto" id="Semestreactual_4">
+		      Quinto</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Semestre actual" value="Sexto" id="Semestreactual_5">
+		      Sexto</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Semestre actual" value="Septimo" id="Semestreactual_6">
+		      Septimo</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Semestre actual" value="Octavo" id="Semestreactual_7">
+		      Octavo</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Semestre actual" value="Noveno" id="Semestreactual_8">
+		      Noveno</label></td>
+	      </tr>
+	  </table>
+		<br>
+		<br>
+		<label for="quantity">¿Has pensado en abandonar tus estudios?&nbsp;</label>
+		<table width="200">
+		  <tr>
+		    <td><label>
+		      <input type="radio" name="&iquest;Has pensado en abandonar tus estudios?" value="si" id="iquestHaspensadoenabandonartusestudios_0">
+		      sí</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="radio" name="&iquest;Has pensado en abandonar tus estudios?" value="no" id="iquestHaspensadoenabandonartusestudios_1">
+		      no</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="radio" name="&iquest;Has pensado en abandonar tus estudios?" value="probablemente" id="iquestHaspensadoenabandonartusestudios_2">
+		      probablemente</label></td>
+	      </tr>
+	  </table>
+		<br>
+		<br>
+		<label for="select2">Select:</label>
+        <select name="select2" id="select2">
+			<option>Primero</option>
+			<option>Segundo</option>
+			<option>Tercero</option>
+			<option>Cuarto</option>
+			<option>Quinto</option>
+			<option>Sexto</option>
+			<option>Septimo</option>
+			<option>Octavo</option>
+			<option>Noveno</option>
+        </select>
+		<br>
+		<br>
+		<label for="color">Selecciona un color que te identifique:</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <br>
+        <label for="range">Del 0 al 10 como calificas tu educación&nbsp;</label>
+        <input type="range" name="range" id="range" nim="0" max="10">
+        <br>
+        <br>
+      <br>
+<input type="submit" name="submit4" id="submit4" value="Enviar">
+      <input type="reset" name="reset" id="reset" value="Restablecer">
+    </form>
+  </section>
+</main>
+<footer>
+  <h6>Elaborao por: Juan Pablo Cadena</h6>
+</footer>
+</body>
+</html>
